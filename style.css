@@ -3,3 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  background: url(https://source.unsplash.com/1920x1080/?,city) center;
+}
+
+.container {
+  background: #000000d0;
+  color: white;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-input {
+  background: #7c7c7c2b;
+  color: white;
+  border: none;
+  border-radius: 22px;
+  padding: 10px;
+  width: 280px;
+  font-size: 18px;
+  font-family: inherit;
+  outline: none;
+}
+
+.search-button {
+  background: #7c7c7c2b;
+  color: white;
+  height: 44px;
+  width: 44px;
+  font-size: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-button:hover {
+  background: #7c7c7c6b;
+}
