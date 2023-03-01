@@ -53,3 +53,35 @@ body {
 .search-button:hover {
   background: #7c7c7c6b;
 }
+
+.city {
+  margin-top: 20px;
+}
+
+.temperature {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.description {
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.icon-desc-flex {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.weather404 {
+  margin-top: 20px;
+}
+
+.not-found {
+  display: none;
+}
